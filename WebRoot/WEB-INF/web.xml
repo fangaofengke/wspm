@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Y2_Chap12</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doRegister</servlet-name>
+    <servlet-class>servlet.doRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doLogin</servlet-name>
+    <servlet-class>servlet.doLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doAdminLogin</servlet-name>
+    <servlet-class>servlet.doAdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addAuction</servlet-name>
+    <servlet-class>servlet.addAuction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>auctionList</servlet-name>
+    <servlet-class>servlet.auctionList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>auctionDetail</servlet-name>
+    <servlet-class>servlet.auctionDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>auctionBid</servlet-name>
+    <servlet-class>servlet.auctionBid</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>auctionResult</servlet-name>
+    <servlet-class>servlet.auctionResult</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>auctiondelete</servlet-name>
+    <servlet-class>servlet.auctiondelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>auctionget</servlet-name>
+    <servlet-class>servlet.auctionget</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>auctionupdate</servlet-name>
+    <servlet-class>servlet.auctionupdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doLogout</servlet-name>
+    <servlet-class>servlet.doLogout</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>doRegister</servlet-name>
+    <url-pattern>/doRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doLogin</servlet-name>
+    <url-pattern>/doLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doAdminLogin</servlet-name>
+    <url-pattern>/doAdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addAuction</servlet-name>
+    <url-pattern>/addAuction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>auctionList</servlet-name>
+    <url-pattern>/auctionList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>auctionDetail</servlet-name>
+    <url-pattern>/auctionDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>auctionBid</servlet-name>
+    <url-pattern>/auctionBid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>auctionResult</servlet-name>
+    <url-pattern>/auctionResult</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>auctiondelete</servlet-name>
+    <url-pattern>/auctiondelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>auctionget</servlet-name>
+    <url-pattern>/auctionget</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>auctionupdate</servlet-name>
+    <url-pattern>/auctionupdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doLogout</servlet-name>
+    <url-pattern>/doLogout</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  <filter>
+    <filter-name>EncodeFilter</filter-name>
+    <filter-class>dao.EncodeFilter</filter-class>
+    
+    <init-param>
+      <param-name>encode</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+    
+  </filter>
+  
+  <filter-mapping>
+     <filter-name>EncodeFilter</filter-name>
+     <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  
+  
+</web-app>
